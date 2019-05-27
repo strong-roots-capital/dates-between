@@ -1,6 +1,6 @@
 {
   "name": "@strong-roots-capital/dates-between",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Generator returning all dates from start date to end date, inclusive",
   "main": "dist/src/dates-between.js",
   "types": "dist/src/dates-between.d.ts",
