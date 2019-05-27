@@ -44,7 +44,10 @@
     "url": "https://github.com/strong-roots-capital/dates-between/issues"
   },
   "homepage": "https://github.com/strong-roots-capital/dates-between",
-  "dependencies": {},
+  "dependencies": {
+    "moment": "^2.24.0",
+    "ow": "^0.13.2"
+  },
   "devDependencies": {
     "@types/node": "^10.14.4",
     "@typescript-eslint/eslint-plugin": "^1.7.0",

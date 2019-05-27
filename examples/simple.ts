@@ -1,17 +1,4 @@
-# dates-between [![Build status](https://travis-ci.org/strong-roots-capital/dates-between.svg?branch=master)](https://travis-ci.org/strong-roots-capital/dates-between) [![npm version](https://img.shields.io/npm/v/@strong-roots-capital/dates-between.svg)](https://npmjs.org/package/@strong-roots-capital/dates-between) [![codecov](https://codecov.io/gh/strong-roots-capital/dates-between/branch/master/graph/badge.svg)](https://codecov.io/gh/strong-roots-capital/dates-between)
-
-> Generator returning all dates from start date to end date, inclusive
-
-## Install
-
-```shell
-npm install @strong-roots-capital/dates-between
-```
-
-## Use
-
-```typescript
-import { datesBetween, allDatesBetween } from '@strong-roots-capital/dates-between'
+import { datesBetween, allDatesBetween } from '../src/dates-between'
 import moment from 'moment'
 
 const newYears = moment.utc().startOf('year').toDate()
@@ -39,5 +26,3 @@ console.log(allDates)
 //    2019-01-06T00:00:00.000Z,
 //    2019-01-07T00:00:00.000Z,
 //    2019-01-08T00:00:00.000Z ]
-
-```
